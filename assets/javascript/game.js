@@ -36,12 +36,12 @@ console.log(computerLetter);
     	wins++;
     	console.log(wins)
     }
-    else ((userGuess != computerSelects)) 
+    else ((userGuess != computerSelects))
+        losses++;
     	lettersGuessed.push(userGuess)
-    	document.getElementById("#yourGuesses").innerHTML =  = Your guesses so far + lettersGuessed);
+    	document.getElementById("guessed").innerHTML = "Your guesses so far: " + lettersGuessed;
 //    	console.log(lettersGuessed)
     	};
-
 //Variable to update page
 //	var pageText =
 //          "<p>Wins: " + wins + "</p>" +
