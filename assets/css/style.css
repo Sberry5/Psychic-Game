@@ -1,0 +1,18 @@
+body{
+	background: green;
+}
+
+h1{
+	color: #ffffff;
+	font-size: 50px;
+	text-align: center;
+}
+
+/* Main content styling*/
+#maincontent{
+	text-align: left;
+	color: #ffffff;
+	font-size: 20px;
+	padding-left: 40%;
+	padding-top: 10%;
+}
