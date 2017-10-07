@@ -31,7 +31,7 @@ console.log(comLetter);
 //Randomly select letter
 
 //If/else to determine
-    if ((userGuess === computerLetter)) {
+    if ((userGuess === comLetter)) {
         wins++;
         console.log(wins)
     }
